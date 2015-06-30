@@ -22,5 +22,8 @@ module WatsonPortfolio
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.serve_static_assets = true
+    config.action_dispatch.x_sendfile_header = nil
   end
 end
