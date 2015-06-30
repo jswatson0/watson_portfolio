@@ -1,0 +1,57 @@
+$navbar-default-bg: white;
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.container-fluid > .navbar-header {
+  margin-left: 50px;
+}
+
+.footer {
+  //position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer .content {
+  margin: 5px;
+  text-align: center;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.profile img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bio {
+  text-align: left;
+}
+
+.project {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.screenshot {
+  width: 25%;
+  display: inline-block;
+}
+
+.screenshot img {
+  width: 100%;
+}
+
+.description {
+  width: 70%;
+  float: right;
+  display: block;
+}
