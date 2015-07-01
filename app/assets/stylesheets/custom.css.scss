@@ -1,24 +1,25 @@
-$navbar-default-bg: white;
+$navbar-default-bg: #acce43;
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+  padding-bottom: 200px;
+}
+
 .container-fluid > .navbar-header {
   margin-left: 50px;
 }
 
-.footer {
-  //position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  border-top: 1px solid #eaeaea;
-}
-
-.footer .content {
-  margin: 5px;
-  text-align: center;
+.navbar-default .navbar-brand {
+  color: white;
 }
 
 ul li {
@@ -36,6 +37,7 @@ ul li {
 }
 
 .project {
+  height: 180px;
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 30px;
@@ -54,4 +56,25 @@ ul li {
   width: 70%;
   float: right;
   display: block;
+}
+
+.full-resume {
+  width: 80%;
+  margin-left: 124px;
+}
+
+.icon-heart {
+  color: #acce43;
+}
+
+.footer {
+   height: 50px;
+   border-top: 1px solid #eaeaea;
+   padding-top: 15px;
+   padding-left: 15px;
+ }
+
+.footer .content {
+  margin: 5px;
+  text-align: center;
 }
