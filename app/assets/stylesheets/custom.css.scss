@@ -63,8 +63,26 @@ ul li {
   margin-left: 124px;
 }
 
-.tool-icons img {
-  margin: 10px;
+.tool-icons {
+  border-bottom: 1px solid;
+
+  img {
+    margin: 10px;
+  }
+
+  .icons {
+    margin-left: 60px;
+  }
+}
+
+.mks-grad {
+  display: inline-flex;
+  margin-left: 106px;
+  margin-top: 20px;
+
+  h3 {
+    margin: 33px;
+  }
 }
 
 .icon-heart {
