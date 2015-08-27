@@ -6,6 +6,11 @@ $navbar-default-bg: #acce43;
 
 html, body {
   height: 100%;
+  font-family: 'open sans condensed', sans-serif;
+}
+
+h3 {
+  color: #acce43;
 }
 
 .wrapper {
@@ -18,8 +23,14 @@ html, body {
   margin-left: 50px;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
+
+
+.navbar-default {
+  border-radius: 0px;
+
+  .navbar-brand {
+    color: white;
+  }
 }
 
 ul li {
@@ -34,6 +45,7 @@ ul li {
 
 .bio {
   text-align: left;
+  margin-left: 22%;
 }
 
 .project {
@@ -65,6 +77,7 @@ ul li {
 
 .tool-icons {
   border-bottom: 1px solid;
+  border-bottom-color: #acce43;
 
   img {
     margin: 10px;
@@ -85,7 +98,7 @@ ul li {
   }
 }
 
-.icon-heart {
+.glyphicon-heart {
   color: #acce43;
 }
 
